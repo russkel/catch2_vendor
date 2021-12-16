@@ -19,8 +19,8 @@ macro(build_catch2)
   )
 
   install(
-    DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/source/include/
-    DESTINATION include/catch2/
+    DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/source/single_include/
+    DESTINATION include
   )
 endmacro()
 
